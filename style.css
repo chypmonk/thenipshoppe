@@ -1,0 +1,119 @@
+body {
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    font-size: 14px;
+    margin: 0 auto;
+}
+h1, h3 {
+   font-family: 'Elsie', cursive;  
+    letter-spacing: 1px;
+}
+
+.title a {    
+    font-family: 'Elsie', cursive;     
+    text-align: center;  
+    color: #356335;
+    color: white;
+    position: fixed;
+    background-color: #356335;
+    z-index: 1;
+    display: block;
+    margin: auto;
+    font-size: 46px;
+    top: 0;    
+    width: 100%;
+    border-top: 5px solid lightcoral;
+      letter-spacing: 1px;
+}
+.description {
+    color: white;   
+    font-size: 30px;
+    font-weight: bold;
+}
+a {
+   text-decoration: none; 
+   color: green;
+}
+a.button:hover, a:hover {
+    color: lightcoral;
+}
+.headerwrap {
+    padding: 0px;
+    display: inline-block;
+    width: 100%;
+    background-image: url("images/green3.jpg");
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.header {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    position: relative;
+    text-align: center;
+    }
+
+main {    
+    text-align: center;
+    display: block;
+    margin: auto; 
+    background-color: #5a1a1a;
+     background-color: #356335;
+    color: white;
+    }
+main a {
+    color: white;
+}
+.admin {
+    background-color: white;
+    color: #356335;
+}
+
+.content-column {
+    margin-top: 30px;
+    width: 50%;      
+    display: inline-block;   
+    box-sizing: border-box;
+    padding: 0 10px;
+    background-color: white;    
+    color: #356335;
+    border: 2px solid lightcoral;
+}
+
+.sidebar-column {
+    display: inline-block;
+    width: 25%;
+    box-sizing: border-box;  
+    vertical-align: top;
+    text-align: center;
+    padding-top: 50px;
+    background-color: #5a1a1a;
+     background-color: #356335;
+    color: white;
+   }
+textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;   
+}
+a.button, input.button {
+    width: 160px;
+    background-color: lightcoral;
+    color: white;
+    border: 1px solid darkgreen;
+    border-radius:  3px;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+}
+
+/** BR
+EAKPOINT */
+
+@media only screen and (max-width: 525px) {   
+    .content-column, .sidebar-column {
+        width: 100%;
+    }
+    
+}
