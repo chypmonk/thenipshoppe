@@ -20,6 +20,7 @@ h1, h3 {
     display: block;
     margin: auto;
     font-size: 46px;
+    line-height: 46px;
     top: 0;    
     width: 100%;
     border-top: 5px solid lightcoral;
@@ -65,6 +66,7 @@ main {
 main a {
     color: white;
 }
+
 .admin {
     background-color: white;
     color: #356335;
